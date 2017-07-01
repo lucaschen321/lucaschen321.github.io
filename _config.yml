@@ -32,3 +32,8 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Navigation bar
+navbar-links:
+  About Me: "aboutme"
+  Projects: "projects"
