@@ -34,6 +34,9 @@ exclude:
 #Highligher
 highlighter: rouge
 
+# Google Analytics
+google_analytics: UA-101959256-1
+
 # Navigation bar
 navbar-links:
   Home: "home"
