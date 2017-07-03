@@ -4,6 +4,11 @@ title: Projects
 permalink: /projects/
 ---
 
-# Projects
-
 ## To be added
+
+```python
+print("hello world")
+```
+
+## Heading 2
+
