@@ -1,0 +1,47 @@
+/*
+ * Navbar
+ */
+
+.nav {
+    padding: $nav-link-padding;
+    > li > a {
+        font-family: $font-family-sans-serif;
+        font-size: $nav-menu-font-size;
+    }
+}
+
+.navbar-toggle {
+    margin-top: 12px !important;
+    margin-bottom: 0px;
+}
+
+.navbar.navbar-inverse {
+    .navbar-brand {
+        font-size: $nav-brand-font-size;
+        height: 60px;
+    }
+
+    .navbar-brand-text {
+       padding-top: 19px;
+       padding-bottom: 10px;
+    }
+
+    .navbar-brand-img {
+       padding-top: 5px;
+       padding-bottom: 20px;
+    }
+
+    .navbar-nav {
+        > li > a {
+           padding-top: $nav-link-vertical-padding;
+           padding-bottom: $nav-link-vertical-padding;
+           padding-left: $nav-link-horizontal-padding;
+           padding-right: $nav-link-horizontal-padding;
+    
+           &:hover {
+           background-color: #111;
+           }
+        }
+    }
+}
+
