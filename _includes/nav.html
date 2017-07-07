@@ -1,13 +1,27 @@
 <!-- Bootstrap's default fixed navbar -->
+<!-- Edit Navbar style (color, fixed ,etc.) here  -->
 <nav class="navbar navbar-inverse">
   <div class="container">
+    <!-- Navbar header -->
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Lucas Chen</a> <!-- Edit Title here -->
+      <!-- Collapse Icon -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsedNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- Edit Brand/Title here. Note: Use style "navbar-brand-{text|img}" depending on brand type-->
+      <a class="navbar-brand navbar-brand-text" id="nav-brand-text" href="/">
+        Lucas Chen
+        <!--
+        <img src="/img/favicon.ico" alt="Lucas Chen" width=50px height=50px>
+        -->
+      </a>
     </div>
 
-<!-- Edit Navbar layout style here  -->
-    <div id="navbar" class="navbar-collapse collapse">
-<!-- Add Navbar menu here  -->
+    <!-- Edit Navbar layout style here  -->
+    <div class="collapse navbar-collapse" id="collapsedNavbar" >
+      <!-- Add Navbar menu here  -->
       <ul class="nav navbar-nav">
         {% for link in site.navbar-links %}
           {% if link[1].first %}
