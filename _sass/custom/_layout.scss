@@ -11,23 +11,23 @@
 }
 
 .navbar-toggle {
-    margin-top: 12px !important;
+//    margin-top: 12px !important;
     margin-bottom: 0px;
 }
 
 .navbar.navbar-inverse {
     .navbar-brand {
         font-size: $nav-brand-font-size;
-        height: 60px;
+//        height: 60px;
     }
 
     .navbar-brand-text {
-       padding-top: 19px;
+       padding-top: 14px;
        padding-bottom: 10px;
     }
 
     .navbar-brand-img {
-       padding-top: 5px;
+       padding-top: 0px;
        padding-bottom: 20px;
     }
 
@@ -37,7 +37,7 @@
            padding-bottom: $nav-link-vertical-padding;
            padding-left: $nav-link-horizontal-padding;
            padding-right: $nav-link-horizontal-padding;
-    
+
            &:hover {
            background-color: #111;
            }

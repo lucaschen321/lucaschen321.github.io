@@ -1,5 +1,5 @@
 // Variables go here
-$font-family-sans-serif: "Avenir Next", "Times New Roman", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $base-font-size: normal;
 
 /*
@@ -10,14 +10,14 @@ $base-font-size: normal;
 $navbar-padding-horizontal: 20px; // Distance between brand and links
 
 // Navbar links
-$nav-menu-font-size: 1.5em; // Nav menu link font size
+$nav-menu-font-size: 1.25em; // Nav menu link font size
 $nav-link-padding: 0px; // Padding between navbar and links
-$nav-link-vertical-padding: 20px; // Link height
+$nav-link-vertical-padding: 15px; // Link height
 $nav-link-horizontal-padding: 15px; // Distance between links
 // $navbar-default-link-hover-bg: #111111;
 
 // Navbar brand
-$nav-brand-font-size: 2.5em; // Font size for brand text
+$nav-brand-font-size: 2.0em; // Font size for brand text
 // $navbar-default-brand-hover-bg: #111111;
 
 @import "bootstrap/variables";
