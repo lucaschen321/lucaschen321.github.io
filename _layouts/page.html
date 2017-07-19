@@ -2,14 +2,23 @@
 layout: default
 ---
 
-<article class="post">
+<center>
+    {% if page.title %}
+      <h1>{{ page.title}}</h1>
+    {% endif %}
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
+    {% if page.date %}
+      <h4>Last Modified: {{ page.date | date_to_long_string }} </h4>
+    {% endif %}
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+    {% if page.author %}
+    {% endif %}
+</center>
 
-</article>
+<div>
+  {{ content }}
+</div>
+
+{% if site.disqus.shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
