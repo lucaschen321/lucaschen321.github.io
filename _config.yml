@@ -31,15 +31,18 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-#Highligher
+# Highligher
 highlighter: rouge
+
+# Permalink
+permalink: /pages/:title.html
 
 # Google Analytics
 google_analytics: UA-101959256-1
 
 # Navigation bar
 navbar-links:
-  Home: "home"
+#   Home: "home"
   About Me: "about"
   Projects: "projects"
   Github: "https://www.github.com/lucaschen321"
