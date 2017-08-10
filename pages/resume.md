@@ -5,7 +5,7 @@ permalink: /cv
 
 <style>
     :root {
-        --paragraph-font-size: 18px;
+        --paragraph-font-size: 16px;
         --thumb-size: 70px;
     }
 
@@ -132,11 +132,11 @@ Last Updated: July 24th, 2017
 ---
 [ASCII-Chat](asdf)
 
-- A terminal-based peer-to-peer (P2P) end-to-end-encrypted (E2EE) video chat application with text messaging support
+<li class="content">A terminal-based peer-to-peer (P2P) end-to-end-encrypted (E2EE) video chat application with text messaging support</li>
 
 [Personal Website](asdf)
 
-- A static-website built from the ground up using Jekyll and Bootstrap
+<li class="content">A static-website built from the ground up using Jekyll and Bootstrap</li>
 
 <!--        -->
 <!-- Skills -->
@@ -155,8 +155,8 @@ Last Updated: July 24th, 2017
 ## Honors
 ---
 
-- Hunter R. Rawlings III Cornell Presidential Research Scholar (RCPRS) (2015 - Current)
-- AIME Qualifier (2014, 2015)
-- Dean's List (All Semesters)
-- National Merit Scholar (2015)
-- Young Artist of American College of Musicians for Piano (2011)
+<li class="content">Hunter R. Rawlings III Cornell Presidential Research Scholar (RCPRS) (2015 - Current)</li>
+<li class="content">AIME Qualifier (2014, 2015)</li>
+<li class="content">Dean's List (All Semesters)</li>
+<li class="content">National Merit Scholar (2015)</li>
+<li class="content">Young Artist of American College of Musicians for Piano (2011)</li>
