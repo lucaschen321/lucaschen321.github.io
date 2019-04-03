@@ -15,7 +15,7 @@ permalink: /
           </tr>
         </thead>
         <tbody>
-          {% for page in site.pages offset: 0 limit: 10  %}
+          {% for page in site.posts offset: 0 limit: 10  %}
             {% if page.date %}
               <tr>
                 <td class="col-sm-8 text-center"><a href="{{ page.url }}">{{ page.title }}</a></td>
@@ -44,9 +44,7 @@ permalink: /
           <ul style="list-style-type: disc; list-style-position: inside;">
             {% capture category_name %}{{ category | first }}{% endcapture %}
             <li>
-              <a href="/category/{{ category_name }}">
-                {{ category_name }}
-              </a>
+              <a href="/category/{{ category_name }}"> {{ category_name | capitalize}} </a>
             </li>
           </ul>
         {% endfor %}

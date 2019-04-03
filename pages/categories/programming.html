@@ -1,0 +1,9 @@
+---
+layout: page
+permalink: /category/programming
+title: Programming
+---
+
+{% for post in site.categories.programming %}
+  <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+{% endfor %}
