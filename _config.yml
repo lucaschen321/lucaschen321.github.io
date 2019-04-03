@@ -18,12 +18,16 @@ email: lmc336@cornell.edu
 description: > # this means to ignore newlines until "baseurl:"
     Site description here
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "lucaschen.me" # the base hostname & protocol for your site, e.g. http://example.com
+url: "lucaschen.me"
 # twitter_username: jekyllrb
 github_username:  lucaschen321
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+kramdown:
+  parse_block_html: true
+
 # theme: minima
 gems:
   - jekyll-feed
@@ -31,11 +35,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-# Highligher
-highlighter: rouge
-
-# Permalink
-permalink: /pages/:title.html
+date_format: "%b %-d, %Y"
+permalink: /:categories/:title/
 
 # Google Analytics
 google_analytics: UA-101959256-1
@@ -43,6 +44,6 @@ google_analytics: UA-101959256-1
 # Navigation bar
 navbar-links:
 #   Home: "home"
-  About Me: "about"
-  Projects: "projects"
+  # About Me: "about"
+  # Projects: "projects"
   Github: "https://www.github.com/lucaschen321"
