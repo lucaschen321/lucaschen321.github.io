@@ -45,3 +45,71 @@
     }
 }
 
+
+/*
+ * Table of Contents
+ */
+
+// Adding 'Contents' headline to the TOC with Wikipedia Style Nested Numbering
+#markdown-toc::before {
+    content: "Contents";
+    font-weight: bold;
+}
+
+#markdown-toc ul {
+    counter-reset: item;
+    list-style-type: decimal
+}
+
+#markdown-toc {
+    counter-reset: item;
+    border: 1px solid #aaa;
+    padding: 1.5em;
+    list-style: upper-alpha;
+    display: inline-block;
+}
+
+
+#markdown-toc li {
+  display: block
+}
+
+#markdown-toc li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item
+}
+
+
+/* Table styling
+*
+* Default Options:
+* - .table
+* - .table-striped
+* - .table-bordered
+* - .table-hover
+* - .table-condensed
+*/
+
+table.table-wide {
+  width: 100%;
+}
+
+table.table-padded td{
+    padding: 10px;
+}
+
+table.table-padded th{
+    padding: 10px;
+}
+
+table.table-centered {
+    margin: 0px auto;
+}
+
+/* Heading Style
+*
+*/
+h2 {
+    border-bottom:1px solid #CCC;
+    padding-bottom:3px;
+}
