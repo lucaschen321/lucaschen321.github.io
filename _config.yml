@@ -24,6 +24,7 @@ github_username:  lucaschen321
 
 # Build settings
 markdown: kramdown
+mathjax: true
 highlighter: rouge
 kramdown:
   parse_block_html: true
@@ -34,6 +35,9 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - LICENSE.txt
+  - CNAME
 
 date_format: "%b %-d, %Y"
 permalink: /:categories/:title/
@@ -44,6 +48,6 @@ google_analytics: UA-101959256-1
 # Navigation bar
 navbar-links:
 #   Home: "home"
-  # About Me: "about"
+  About: "about"
   # Projects: "projects"
   Github: "https://www.github.com/lucaschen321"
