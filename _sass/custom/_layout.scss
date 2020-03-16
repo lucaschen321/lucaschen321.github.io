@@ -16,6 +16,9 @@
 }
 
 .navbar.navbar-inverse {
+    padding-bottom: 0;
+    padding-top: 0;
+
     .navbar-brand {
         font-size: $nav-brand-font-size;
 //        height: 60px;
@@ -28,7 +31,7 @@
 
     .navbar-brand-img {
        padding-top: 0px;
-       padding-bottom: 20px;
+       padding-bottom: 0px;
     }
 
     .navbar-nav {

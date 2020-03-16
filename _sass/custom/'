@@ -1,8 +1,0 @@
-.nav {
-        }
-.nav a{
-    font-size: 1.5em !important;
-    }
-.nav li{
-    padding-right:5px;
-   }
