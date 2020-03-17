@@ -16,7 +16,7 @@ I created this web site to:
 
 ### Contact Info
 Email address: [lmc336@cornell.edu](mailto:lmc336@cornell.edu)\\
-[Resume](/images//about/lucas-chen-resume-sep-2018.pdf) as of 2018-10-09
+[Resume](/images/about/lucas-chen-resume-sep-2018.pdf) as of 2018-10-09
 
 
 <div class="row">
@@ -32,7 +32,7 @@ My work is also hosted elsewhere. Here is a list of the other sites, with the mo
 | ![goodreads-icon](/images/about/goodreads-icon.png){: height="16px"} [Goodreads](https://www.goodreads.com/user/show/56271666-lucas-chen) | Books Read |
 | ![last-fm-icon](/images/about/last-fm-icon.png){: height="16px"} [last.fm](https://www.last.fm/user/lchen2436) | Music Scrobbled |
 | ![spotify-icon](/images/about/spotify-icon.png){: height="16px"} [Spotify](https://open.spotify.com/user/1237330016) | Playlist Sharing |
-{: .table .table-bordered .table-condensed}
+{: .table .table-bordered .table-sm}
 
 
 </div>

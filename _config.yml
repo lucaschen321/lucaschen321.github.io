@@ -23,11 +23,19 @@ url: "lucaschen.me"
 github_username:  lucaschen321
 
 # Build settings
+# markdown: CommonMarkGhPages
 markdown: kramdown
 mathjax: true
 highlighter: rouge
 kramdown:
   parse_block_html: true
+  syntax_highlighter: rouge
+  input: GFM #Github Flavored Markdown
+  hard_wrap: false
+
+# commonmark:
+#     options: ["SMART", "FOOTNOTES"]
+#     extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 
 # theme: minima
 gems:
@@ -51,3 +59,6 @@ navbar-links:
   About: "about"
   # Projects: "projects"
   Github: "https://www.github.com/lucaschen321"
+
+sass:
+  sass_dir: css

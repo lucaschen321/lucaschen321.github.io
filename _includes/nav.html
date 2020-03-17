@@ -1,47 +1,23 @@
 <!-- Bootstrap's default fixed navbar -->
 <!-- Edit Navbar style (color, fixed ,etc.) here  -->
-<nav class="navbar navbar-expand-lg navbar-inverse"">
-  <div class="container">
-    <!-- Navbar header -->
-    <div class="navbar-header">
-      <!-- Collapse Icon -->
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsedNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <!-- Edit Brand/Title here. Note: Use style "navbar-brand-{text|img}" depending on brand type-->
+
+
+ <nav class="navbar navbar-expand-lg navbar-dark navbar-custom rounded py-0">
+    <div class="container">
       <a class="navbar-brand navbar-brand-img" id="nav-brand-text" href="/">
         <!--
         Lucas Chen
         -->
         <img src="/images/favicon-2.ico" class="img-responsive img-rounded" alt="Lucas Chen" width=45px vspace=3px>
       </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="/about">About</a>
+          <a class="nav-item nav-link" href="https://www.github.com/lucaschen321">Github</a>
+        </div>
+      </div>
     </div>
-
-    <!-- Edit Navbar layout style here  -->
-    <div class="collapse navbar-collapse" id="collapsedNavbar" >
-      <!-- Add Navbar menu here  -->
-      <ul class="nav navbar-nav">
-        {% for link in site.navbar-links %}
-          {% if link[1].first %}
-            <li class="navlinks-container">
-              <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
-              <div class="navlinks-children">
-                {% for childlink in link[1] %}
-                  {% for linkparts in childlink %}
-                    {% include navbarlink.html link=linkparts %}
-                  {% endfor %}
-                {% endfor %}
-              </div>
-            </li>
-          {% else %}
-            <li>
-              {% include navbarlink.html link=link %}
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
-</nav>
+    </nav>

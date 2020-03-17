@@ -10,7 +10,7 @@ title: Categories
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <h3><a href="{{ category_name }}">{{ category_name | capitalize }}</a></h3>
     {% for post in site.categories[category_name] %}
-      <h4><a href="{{ post.url }}">{{post.title}}</a></h4>
+      <h5><a href="{{ post.url }}">{{post.title}}</a></h5>
     {% endfor %}
   </div>
 {% endfor %}
