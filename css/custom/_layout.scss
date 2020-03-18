@@ -76,6 +76,11 @@
 * - .table-condensed
 */
 
+table {
+    margin: 1rem 0rem; 
+    table-layout: fixed;
+}
+
 table.table-wide {
   width: 100%;
 }
@@ -104,4 +109,10 @@ h2 {
 a:link, a:visited{
     color: #337ab7;
   }
+
+blockquote {
+    margin: 0;
+    padding-left: 1.4rem;
+    border-left: 4px solid #dadada; 
+}
   

@@ -37,7 +37,6 @@ kramdown:
 #     options: ["SMART", "FOOTNOTES"]
 #     extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 
-# theme: minima
 gems:
   - jekyll-feed
 exclude:
